@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_margin="5dp"
+    android:layout_height="fill_parent" >
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:textSize="30dp"
+        android:id="@+id/resultText"
+
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ReadAgain"
+        android:layout_below="@id/resultText"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="2dp"
+        android:text="@string/redgan"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/openurl"
+        android:layout_below="@id/resultText"
+
+        android:layout_margin="2dp"
+        android:text="@string/openurl"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/ReadAgain"
+        android:weightSum="75">
+
+        <Button
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/copy"
+            android:id="@+id/copyButton"
+            />
+        <Button
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/Share"
+            android:id="@+id/shareButtonc"
+            />
+        <Button
+            android:layout_weight="25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:text="@string/Done"
+            android:id="@+id/DoneButtonc"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

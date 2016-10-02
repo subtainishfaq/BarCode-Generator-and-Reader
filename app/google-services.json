@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "826383015327",
+    "firebase_url": "https://admob-app-id-4115556575.firebaseio.com",
+    "project_id": "admob-app-id-4115556575",
+    "storage_bucket": "admob-app-id-4115556575.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826383015327:android:88220029b892523d",
+        "android_client_info": {
+          "package_name": "com.qrstarapp.tol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826383015327-14lvfsq50a3t9hb5rllt7k7t4udo7e06.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUpFGAxvYvRzbcv5v5yCpoS6Ug3Ce4ya8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

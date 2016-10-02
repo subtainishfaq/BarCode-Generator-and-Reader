@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Qr Star</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="resultt">Result is :</string>
+    <string name="scancomplet">Scan Complete</string>
+    <string name="tostcopy">Results copied to Clipboard</string>
+    <string name="redgan">Read Again!</string>
+    <string name="Done">Done</string>
+    <string name="Share">Share!</string>
+
+    <string name="Share1">Do you to share!</string>
+    <string name="Cancle">Cancle</string>
+    <string name="perm">Storage permission allows us to access location data. Please allow in App Settings for additional functionality.</string>
+    <string name="banner_ad_unit_id">ca-app-pub-4035233662996005/5592289776</string>
+
+
+    <string name="saved">Saved</string>
+    <string name="data1">Input URL or Data</string>
+    <string name="nosaved"> Not Saved</string>
+    <string name="data"> url or data</string>
+    <string name="gen">Generate</string>
+    <string name="savee">save</string>
+    <string name="barcode">bar code:</string>
+    <string name="frmcam">Scan From Camera</string>
+    <string name="frmfile">Load From File</string>
+
+    <string name="Generator">Generator</string>
+    <string name="scan">Scanner</string>
+
+    <string name="help">Helps you apply the qr star in spreading your sites or links to your products or your stores across snapchat and Anstaqram by converting the link to the barcode can read it once again in the same application to go to this link or heading back</string>
+    <string name="help1">help</string>
+    <string name="openurl">Open URL</string>
+    <string name="copy">Copy</string>
+
+    <string name="shareapp">Share App</string>
+    <string name="raeteapp">Rate App</string>
+</resources>

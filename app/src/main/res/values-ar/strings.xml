@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Qr Star</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="resultt">بيانات الباركود هي :</string>
+    <string name="scancomplet">تم الانتهاء من المسح</string>
+    <string name="tostcopy">نتيجة الباركود تم نسخها الى الحافضة</string>
+    <string name="redgan">اعادة المسح</string>
+    <string name="Done">انهاء</string>
+    <string name="Share">مشاركة</string>
+    <string name="Share1">هل تريد مشاركة الناتج ؟</string>
+    <string name="Cancle">الغاء</string>
+    <string name="perm">لم يتم السماح للتطبيق بالدخول الى الذاكرة للحفط نرجو الذهاب لاعدادات التطبيق للسماح بالحفظ</string>
+
+    <string name="saved">تم الحفظ في الاستديو </string>
+
+    <string name="nosaved">تعذر الحفظ</string>
+    <string name="data"> رابط او نص</string>
+    <string name="gen">انشاء الباركود</string>
+
+    <string name="data1">ادخل رابط او بيانات</string>
+    <string name="savee">حفظ</string>
+    <string name="barcode">الباركود:</string>
+
+    <string name="frmcam">مسح من الكاميرا</string>
+    <string name="frmfile">تحميل باركود من الاستديو</string>
+    <string name="Generator">انشاء باركود</string>
+    <string name="scan">ماسح باركود</string>
+
+    <string name="help"> يساعدك تطبيق qr star في نشر روابط مواقعك او منتجاتك او متاجرك عبر سناب شات وانستقرام عن طريق تحويل الرابط الى باركود يمكن قرائته مره اخرى بنفس التطبيق للذهاب الى هذا الرابط او العنوان مره اخرى</string>
+    <string name="shareapp">شارك التطبيق </string>
+    <string name="help1">مساعدة</string>
+    <string name="raeteapp">قييم التطبيق</string>
+    <string name="openurl">فتح الرابط</string>
+    <string name="copy">نسخ</string>
+</resources>

@@ -1,0 +1,146 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@color/gray_btn_bg_color"
+    tools:context="com.qrstarapp.tol.Generator">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/data1"
+            android:textStyle="bold"
+            android:textColor="@android:color/primary_text_light"
+            android:textSize="20sp"
+            android:id="@+id/labeltext"
+
+            android:layout_gravity="center"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="30sp"
+            android:textSize="20sp"
+            android:id="@+id/datatext"
+            android:hint="@string/data"
+            android:textColor="@android:color/black"
+            android:background="@color/material_grey_100"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/labeltext"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/generatorButton"
+            android:background="@android:color/darker_gray"
+            android:text="@string/gen"
+            android:layout_below="@+id/datatext"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_below="@id/generatorButton"
+            android:layout_height="1dip"
+            android:id="@+id/separator"
+            android:layout_margin="10dp"
+            android:background="#000000" />
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/separator"
+            android:id="@+id/bottom"
+            android:visibility="invisible"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_below="@id/separator"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/barcode"
+                    android:textStyle="bold"
+                    android:id="@+id/imageLabel"
+                    android:textColor="@android:color/primary_text_light_nodisable"
+                    android:textSize="20sp"
+
+                    android:layout_marginTop="20dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:id="@+id/barCodeImage"
+                    />
+
+
+                <LinearLayout
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/shareButton"
+                        android:background="@android:color/darker_gray"
+                        android:visibility="gone"
+                        android:text="@string/Share"
+                        android:layout_margin="5dp"/>
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/SaveButton"
+                        android:background="@android:color/darker_gray"
+
+                        android:text="@string/savee"
+                        android:layout_margin="5dp"/>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/help1"
+        android:id="@+id/help"
+        android:layout_gravity="right|top" />
+
+
+
+
+</FrameLayout>

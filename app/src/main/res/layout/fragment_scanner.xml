@@ -1,0 +1,95 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.qrstarapp.tol.Scanner"
+    android:background="@color/gray_btn_bg_color">
+
+
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+
+      android:weightSum="100.0"
+      >
+
+   <RelativeLayout
+       android:layout_weight="49.5"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+
+       >
+
+       <ImageButton
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_alignParentLeft="true"
+           android:background="@android:color/transparent"
+           android:layout_centerVertical="true"
+           android:src="@drawable/camera_icon"
+           android:id="@+id/imageCamera"/>
+       <Button
+           android:id="@+id/buttonCamera"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:padding="12dp"
+
+           android:text="@string/frmcam"
+           android:background="@android:color/transparent"
+           android:textColor="@color/abc_primary_text_disable_only_material_light"
+           android:textSize="20sp"
+           android:textStyle="bold"
+
+           android:layout_toRightOf="@id/imageCamera"
+           android:layout_centerVertical="true"/>
+       />
+
+
+   </RelativeLayout>
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:id="@+id/separator"
+          android:layout_margin="10dp"
+          android:background="#000000" />
+
+      <RelativeLayout
+       android:layout_weight="49.5"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+
+       >
+
+          <ImageButton
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:layout_alignParentLeft="true"
+              android:layout_centerVertical="true"
+              android:id="@+id/imagefile"
+              android:background="@android:color/transparent"
+              android:src="@drawable/filemanager"/>
+
+          <Button
+              android:id="@+id/buttonfile"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:padding="12dp"
+          android:text="@string/frmfile"
+              android:background="@android:color/transparent"
+          android:textColor="@color/abc_input_method_navigation_guard"
+          android:textSize="20sp"
+          android:textStyle="bold"
+
+              android:layout_toRightOf="@id/imagefile"
+              android:layout_centerVertical="true"/>
+              />
+
+
+
+      </RelativeLayout>
+  </LinearLayout>
+
+</FrameLayout>
